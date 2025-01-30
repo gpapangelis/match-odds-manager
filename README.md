@@ -17,15 +17,15 @@ Match Odds Manager is an application that allows users to manage match data and 
 - Swagger UI
 
 ### Docker
-![Docker](https://www.docker.com/sites/default/files/d8/2019-07/Moby-logo.png)  
+![docker-image](https://github.com/user-attachments/assets/0d9809b2-48cb-4f4a-8788-33a2e7d697c1)
 Docker allows you to package the app and its dependencies in containers, making it easier to deploy across different environments.
 
-### Kubernetes
-![Kubernetes](https://kubernetes.io/images/kubernetes-horizontal-color.png)  
+Kubernetes
+### ![kubernetes-image](https://github.com/user-attachments/assets/fcc988e7-96e5-4d89-8587-4ef2bff3e9d6)
 Kubernetes automates the deployment, scaling, and management of containerized applications like your Match Odds Manager.
 
 ### Swagger UI
-![Swagger UI](https://swagger.io/wp-content/uploads/2019/06/swagger_logo_horiz.png)  
+![swagger-image](https://github.com/user-attachments/assets/58bb94b9-900c-40d0-8cd3-74ea49270f3b)
 Swagger UI provides a powerful, interactive API documentation interface to interact with the backend API.
 
 ## Getting Started
