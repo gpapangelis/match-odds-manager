@@ -43,7 +43,7 @@ public class DeleteMatchOddsServiceImpl implements DeleteMatchOddsService{
             response.setErrorCode(e.getErrorCode());
             response.setErrorMessage(e.getErrorMessage());
             response.setSuccess(false);
-            throw e;
+            return response;
         }catch (Exception e){
             log.error("[{}] {} Exception: {}", requestId, methodName, e.toString());
             response.setErrorLevel(1);

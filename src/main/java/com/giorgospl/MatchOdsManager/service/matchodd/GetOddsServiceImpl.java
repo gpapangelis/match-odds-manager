@@ -50,7 +50,7 @@ public class GetOddsServiceImpl implements GetOddsService{
             response.setErrorCode(e.getErrorCode());
             response.setErrorMessage(e.getErrorMessage());
             response.setSuccess(false);
-            throw e;
+            return response;
         }catch (Exception e){
             log.error("[{}] {} Exception: {}", requestId, methodName, e.toString());
             response.setErrorLevel(1);
